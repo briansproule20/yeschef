@@ -15,8 +15,35 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Echo Chat',
-  description: 'AI-powered chat application with Echo billing integration',
+  title: 'Yes Chef',
+  description: 'AI-powered culinary chat assistant with Echo billing integration',
+  icons: {
+    icon: '/yes-chef favicon.png',
+    shortcut: '/yes-chef favicon.png',
+    apple: '/yes-chef favicon.png',
+  },
+  openGraph: {
+    title: 'Yes Chef',
+    description: 'AI-powered culinary chat assistant with Echo billing integration',
+    url: 'https://yeschef.app',
+    siteName: 'Yes Chef',
+    images: [
+      {
+        url: '/yes-chef favicon.png',
+        width: 512,
+        height: 512,
+        alt: 'Yes Chef - AI Culinary Assistant',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Yes Chef',
+    description: 'AI-powered culinary chat assistant with Echo billing integration',
+    images: ['/yes-chef favicon.png'],
+  },
 };
 
 export default function RootLayout({
@@ -30,7 +57,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} flex h-screen flex-col antialiased`}
       >
         <Providers>
-          <Header title="Echo Chat" />
+          <Header title="Yes Chef" />
           <div className="min-h-0 flex-1">{children}</div>
         </Providers>
       </body>
