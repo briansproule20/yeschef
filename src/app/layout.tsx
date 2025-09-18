@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://yeschef.vercel.app'),
   title: 'Yes Chef',
   description: 'AI-powered culinary chat assistant with Echo billing integration',
   icons: {
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Yes Chef',
     description: 'AI-powered culinary chat assistant with Echo billing integration',
-    url: 'https://yeschef.app',
+    url: 'https://yeschef.vercel.app',
     siteName: 'Yes Chef',
     images: [
       {
