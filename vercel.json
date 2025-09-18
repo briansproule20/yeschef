@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "name": "yes-chef",
-  "buildCommand": "cd yes-chef && pnpm install && pnpm build",
-  "outputDirectory": "yes-chef/.next",
-  "installCommand": "cd yes-chef && pnpm install",
-  "framework": "nextjs",
-  "rootDirectory": "yes-chef"
-}
